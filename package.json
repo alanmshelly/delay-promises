@@ -4,6 +4,10 @@
   "description": "Promises that resolve exactly when you want them to",
   "main": "lib/index.js",
   "types": "lib/index.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/alanmshelly/delay-promises.git"
+  },
   "scripts": {
     "build": "tsc",
     "publish": "git push --tags && npm publish",
