@@ -1,5 +1,5 @@
 {
-  "name": "delayed-promise",
+  "name": "delay-promises",
   "version": "1.0.0",
   "description": "Promises that resolve exactly when you want them to",
   "main": "lib/index.js",
