@@ -1,14 +1,23 @@
 {
   "name": "delayed-promise",
   "version": "1.0.0",
-  "description": "echo # Delayed Promise",
-  "main": "index.js",
+  "description": "Promises that resolve exactly when you want them to",
+  "main": "lib/index.js",
+  "types": "lib/index.js",
   "scripts": {
     "build": "tsc",
+    "publish": "git push --tags && npm publish",
     "test": "jest --config jest.config.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "async",
+    "asynchronous",
+    "deferred",
+    "delayed",
+    "promise",
+    "promises"
+  ],
+  "author": "Alan Shelly",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^25.2.1",
